@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4286f4"
+    tools:context="com.example.raghavanpc.word_game.start_menu">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="WORDSMANIA"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/option"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="Exit"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/option"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/st"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="Options"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/st"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/title"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="START"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
